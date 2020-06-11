@@ -70,11 +70,11 @@ html, body {
 	height: 100%;
 }
 body {
-	background: #151515;
+	background: #181A1B;
 	font-family: "lora-regular", serif;
 	font-size: 1.7rem;
 	line-height: 3rem;
-	color: #6e6e6e;
+	color: #dedede;
 }
 
 /**
@@ -82,7 +82,7 @@ body {
  * -------------------------------------------------------------------
  */
 a, a:visited {
-	color: #000000;
+	color: #dedede;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -102,7 +102,7 @@ a:hover, a:focus, a:active {
  */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-family: "poppins-semibold", sans-serif;
-	color: #313131;
+	color: #dedede;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -156,7 +156,7 @@ p.lead {
 	font-family: "lora-regular", serif;
 	font-size: 2rem;
 	line-height: 1.8;
-	color: #888888;
+	color: #dedede;
 }
 @media only screen and (max-width:768px) {
 	p.lead {
@@ -189,7 +189,7 @@ blockquote:before {
 	font-size: 8rem;
 	line-height: 0px;
 	margin: 0;
-	color: #313131;
+	color: #dedede;
 	font-family: arial, sans-serif;
 	position: absolute;
 	top: 3rem;
@@ -212,7 +212,7 @@ blockquote cite:before {
 	content: "\2014 \0020";
 }
 blockquote cite a, blockquote cite a:visited {
-	color: #888888;
+	color: #dedede;
 	border: none;
 }
 abbr {
@@ -220,7 +220,7 @@ abbr {
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
-	color: #888888;
+	color: #dedede;
 }
 var, kbd, samp, code, pre {
 	font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
@@ -331,7 +331,7 @@ th, td {
 	border-bottom: 1px solid #E8E8E8;
 }
 th {
-	color: #313131;
+	color: #dedede;
 	font-family: "poppins-bold", sans-serif;
 }
 td {
@@ -525,7 +525,7 @@ select {
 	border: 0;
 	outline: none;
 	vertical-align: middle;
-	color: #313131;
+	color: #dedede;
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
 	line-height: 3rem;
@@ -661,7 +661,7 @@ input[type="button"] {
 	padding: 0 3rem;
 	margin: 0 .3rem 1.2rem 0;
 	background: #d8d8d8;
-	color: #313131;
+	color: #dedede;
 	text-decoration: none;
 	cursor: pointer;
 	text-align: center;
@@ -956,7 +956,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	left: 0;
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #dedede;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1036,7 +1036,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .section-intro h1 {
 	font-family: "poppins-semibold", serif;
 	font-size: 3.6rem;
-	color: #313131;
+	color: #dedede;
 	line-height: 1.25;
 	margin-bottom: 1.2rem;
 }
@@ -1537,7 +1537,7 @@ header .logo a {
 }
 .about-content .info-list li strong {
 	font-family: "poppins-bold", sans-serif;
-	color: #313131;
+	color: #dedede;
 	text-transform: uppercase;
 	letter-spacing: .2rem;
 	font-size: 1.5rem;
@@ -1621,6 +1621,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #resume {
+	background: #1E2021;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -1685,7 +1686,7 @@ header .logo a {
 #resume .timeline-header p {
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.6rem;
-	color: #888888;
+	color: #e6e6e6;
 }
 #resume .timeline-content {
 	margin-left: 35%;
@@ -1790,7 +1791,7 @@ header .logo a {
  * ------------------------------------------------------------------- 
  */
 #portfolio {
-	background: #FFFFFF;
+	background: #181A1B;
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
